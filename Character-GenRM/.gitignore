@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.out
+*.log
+*.txt
+*.csv
+*.pt
+*.xlsx
+venv/
+.env/
+
+.ipynb_checkpoints/
+
+# Ignore everything inside /checkpoints and /data
+/checkpoints/*
+/data/*
+
+# But keep the folder itself
+!/checkpoints/
+!/data/
+
+!/checkpoints/.gitkeep
+!/data/.gitkeep
+
+/Qwen3-Embedding-0.6B/*
+
+/prototype_learning/saved_pt_0.6B/*
+/prototype_learning/with_proto/*

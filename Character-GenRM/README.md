@@ -64,9 +64,12 @@ Here we provide an example of a P-GenRM's evaluation chain.  Part 1 infers perso
 pip install -r requirements.txt
 ```
 ### Download 
-Download Qwen3-Embedding-0.6B, PersonalRewardBench and PRISM datasets from Hugging Face.
+Download P-GenRM-8B-ChatbotArena, 
+P-GenRM-8B-PRISM, Qwen3-Embedding-0.6B, PersonalRewardBench and PRISM datasets from Hugging Face.
 
 <p align="center">
+🤗 <a href="https://huggingface.co/Tongyi-ConvAI/P-GenRM-8B-ChatbotArena">P-GenRM-8B-ChatbotArena</a>&nbsp&nbsp | &nbsp&nbsp
+🤗 <a href="https://huggingface.co/Tongyi-ConvAI/P-GenRM-8B-PRISM">P-GenRM-8B-PRISM</a>&nbsp&nbsp | &nbsp&nbsp
        🤗 <a href="https://huggingface.co/Qwen/Qwen3-Embedding-0.6B">Qwen3-Embedding-0.6B</a>&nbsp&nbsp | &nbsp&nbsp
        🤗 <a href="https://huggingface.co/datasets/MichaelR207/prism_personalized_0125">PRISM_personalized</a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/datasets/MichaelR207/chatbot_arena_personalized_0125">Chatbot_Arena_personalized</a> | &nbsp&nbsp🤗 <a href="https://huggingface.co/datasets/HannahRoseKirk/prism-alignment">PRISM</a>&nbsp&nbsp
 </p>
@@ -76,8 +79,8 @@ Place it under the "data" directory. The project structure should be:
 P-GenRM/
 ├── assets/
 ├── checkpoints/
-│   ├── P-GenRM-8B-PRISM/
-│   └── P-GenRM-8B-ChatbotArena/
+│   ├── P-GenRM-8B-ChatbotArena/
+│   └── P-GenRM-8B-PRISM/
 ├── data/
 │   ├── chatbot_arena_personalized_0125/
 │   ├── prism_personalized_0125/

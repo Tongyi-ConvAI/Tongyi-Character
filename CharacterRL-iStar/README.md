@@ -5,7 +5,7 @@
 
 ## Introduction
 
-![image](./method.png)
+![image](./assets/method.png)
 Large language models (LLMs) are increasingly developed as autonomous agents using reinforcement learning (agentic RL) that reason and act in interactive environments.
 However, sparse and sometimes unverifiable rewards make it extremely challenging to assign credit when training LLM agents that serve as a policy.
 Recent work attempts to integrate process supervision into RL but suffers from biased annotation, reward hacking, high-variance from overly fine-grained rewards or failtures when state overlap is rare.
@@ -18,7 +18,7 @@ Further analysis also demonstrates efficient exploration by **iStar** with incre
 Code will be available soon.
 
 ## Results
-![image](./results1.png)
+![image](./assets/results1.png)
 
 ## Installation
 ### Install veRL

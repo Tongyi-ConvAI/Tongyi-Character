@@ -126,7 +126,7 @@ bash  scaling_with_proto.sh prism
 
 We extend our gratitude to the authors and contributors of these projects.
 - [veRL](https://github.com/volcengine/verl)
-- [vllm](https://github.com/vllm-project/vllm)
+- [vLLM](https://github.com/vllm-project/vllm)
 - [PRISM](https://huggingface.co/datasets/HannahRoseKirk/prism-alignment)
 - [SynthesizeMe](https://github.com/SALT-NLP/SynthesizeMe)
 

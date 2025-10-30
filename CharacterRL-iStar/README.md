@@ -15,7 +15,6 @@ Then the implicit step rewards are used to compute step-level advantages, which 
 We evaluate our method on three challenging agent benchmarks, including WebShop and VisualSokoban, as well as open-ended social interactions with unverifiable rewards in SOTOPIA. 
 Crucially, **iStar** shows superior performance over frontier LLMs and strong RL baselines across domains, achieving state-of-the-art results with higher sample-efficiency and training stability.
 Further analysis also demonstrates efficient exploration by **iStar** with increased rewards in both step- and episode-level while maintaining fewer steps to achieve task success.
-Code will be available soon.
 
 ## Results
 ![image](./assets/results1.png)

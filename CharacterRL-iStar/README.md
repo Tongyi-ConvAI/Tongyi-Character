@@ -5,7 +5,7 @@
 
 ## Introduction
 
-![image](./method.png)
+![image](./assets/method.png)
 Large language models (LLMs) are increasingly developed as autonomous agents using reinforcement learning (agentic RL) that reason and act in interactive environments.
 However, sparse and sometimes unverifiable rewards make it extremely challenging to assign credit when training LLM agents that serve as a policy.
 Recent work attempts to integrate process supervision into RL but suffers from biased annotation, reward hacking, high-variance from overly fine-grained rewards or failtures when state overlap is rare.
@@ -15,10 +15,9 @@ Then the implicit step rewards are used to compute step-level advantages, which 
 We evaluate our method on three challenging agent benchmarks, including WebShop and VisualSokoban, as well as open-ended social interactions with unverifiable rewards in SOTOPIA. 
 Crucially, **iStar** shows superior performance over frontier LLMs and strong RL baselines across domains, achieving state-of-the-art results with higher sample-efficiency and training stability.
 Further analysis also demonstrates efficient exploration by **iStar** with increased rewards in both step- and episode-level while maintaining fewer steps to achieve task success.
-Code will be available soon.
 
 ## Results
-![image](./results1.png)
+![image](./assets/results1.png)
 
 ## Installation
 ### Install veRL

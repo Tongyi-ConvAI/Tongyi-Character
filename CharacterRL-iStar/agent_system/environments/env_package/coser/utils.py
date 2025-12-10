@@ -83,8 +83,9 @@ def cached(func):
 	return wrapper
 
 def request_model_api(messages, model, max_tokens=8196, temperature=0.7):
-	url = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
-	token = "sk-739b2068c60940bc95ba9c93c0f4714e"
+	# set your url and token here
+	url = ""
+	token = ""
 	headers = {
 		'Authorization': f'Bearer {token}',
 		'Content-Type': 'application/json'
@@ -98,7 +99,6 @@ def request_model_api(messages, model, max_tokens=8196, temperature=0.7):
 	try:
 		response = requests.post(url, headers=headers, json=data, timeout=120)
 		response.raise_for_status() # 检查HTTP错误
-		# 你的原始代码是 json.loads(response.text)，这也可以
 		return response.json() 
 	except requests.exceptions.RequestException as e:
 		print(f"请求模型 {model} 时发生网络错误: {e}")
@@ -126,7 +126,6 @@ def get_response(model, messages, max_tokens=8196, nth_generation=0):
 
 	messages = merged_messages
 	response = request_model_api(messages, model, max_tokens=8196, temperature=0 if nth_generation == 0 else 1)
-	# print(json.dumps(response, ensure_ascii=False))
 	if response and 'output' in response:
 		response = response['output']
 
